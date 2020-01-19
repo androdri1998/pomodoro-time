@@ -1,0 +1,55 @@
+.title{
+    font-family: 'Comfortaa', cursive;
+    /* align-self: center; */
+}
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+.itemContainer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-right: solid 1px black;
+    padding: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: solid 1px black;
+}
+.locBtns{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.secondItens{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.locInp{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.input-field{
+    display: flex;
+    width: 80%;
+}
+.textAlignCenter{
+    text-align: center;
+}
+.time{
+    font-family: 'Comfortaa', cursive;
+}
